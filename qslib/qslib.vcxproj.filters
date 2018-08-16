@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\data">
+      <UniqueIdentifier>{eff5256e-2224-4d8a-96ad-1b84a6ec8bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data\ctp">
+      <UniqueIdentifier>{1ddd179b-e80d-4c7f-a689-10c1e66ab0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data\local">
+      <UniqueIdentifier>{b14a8573-1846-4912-b9c1-9a677db658d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\concurrent">
+      <UniqueIdentifier>{ea001d5e-933e-4aee-b4fe-f05d8908bae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\trade">
+      <UniqueIdentifier>{ddc93a54-9bd9-4a2f-8192-fdedb2b741ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\framework">
+      <UniqueIdentifier>{6c8ef33d-4353-4d0f-a2d2-3195e5b171e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{257b0630-ed2b-4cea-9792-c6b776a9978f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data\visitor">
+      <UniqueIdentifier>{f9c50518-8292-4094-b70f-ddfb6360aebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data\window">
+      <UniqueIdentifier>{252def24-b5c1-46d1-8f35-0f106b31e78a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThostFtdcMdApi.h">
+      <Filter>头文件\data\ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcTraderApi.h">
+      <Filter>头文件\data\ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcUserApiDataType.h">
+      <Filter>头文件\data\ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcUserApiStruct.h">
+      <Filter>头文件\data\ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="CtpMdStream.h">
+      <Filter>头文件\data\ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataStream.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="lockable.h">
+      <Filter>头文件\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOutputMdStream.h">
+      <Filter>头文件\data\local</Filter>
+    </ClInclude>
+    <ClInclude Include="sleep.h">
+      <Filter>头文件\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInputMdStream.h">
+      <Filter>头文件\data\local</Filter>
+    </ClInclude>
+    <ClInclude Include="constraints.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataVisitor.h">
+      <Filter>头文件\data\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerSeriesVisitor.h">
+      <Filter>头文件\data\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueStorage.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataWindow.h">
+      <Filter>头文件\data\window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
